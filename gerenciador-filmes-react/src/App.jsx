@@ -7,6 +7,8 @@ import { Menu } from "./components/menu";
 import { Home } from "./pages/home";
 import { Filmes } from "./pages/filmes";
 import { Actors } from "./pages/actors";
+import { Routes, Route } from "react-router-dom";
+import { Directors } from "./pages/directors";
 
 
 function App() {
@@ -16,7 +18,12 @@ function App() {
         <Topbanner/>
         <Mainbody>
           <Menu/>
-          <Actors/>
+          <Routes>
+            <Route path="/" element={<Home/>}/>
+            <Route path="/filmes" element={<Filmes/>}/>
+            <Route path="/diretores" element={<Directors/>}/>
+            <Route path="/atores" element={<Actors/>}/>
+          </Routes>
         </Mainbody>
         <Footer/>
     </div>

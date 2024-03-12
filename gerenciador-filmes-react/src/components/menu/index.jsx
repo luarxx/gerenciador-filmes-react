@@ -8,13 +8,13 @@ export function Menu() {
                 <Link to="/" className="menu">Home</Link>
             </nav>
             <nav className="menu">
-                <Link to="/" className="menu">Filmes</Link>
+                <Link to="/filmes" className="menu">Filmes</Link>
             </nav>
             <nav className="menu">
-                <Link to="/" className="menu">Diretores</Link>
+                <Link to="/diretores" className="menu">Diretores</Link>
             </nav>
             <nav className="menu">
-                <Link to="/" className="menu">Atores</Link>
+                <Link to="/atores" className="menu">Atores</Link>
             </nav>
         </div>
     )
