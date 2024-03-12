@@ -5,6 +5,8 @@ import { Topbanner } from "./components/topbanner";
 import { Footer } from "./components/footer";
 import { Menu } from "./components/menu";
 import { Home } from "./pages/home";
+import { Filmes } from "./pages/filmes";
+import { Actors } from "./pages/actors";
 
 
 function App() {
@@ -14,7 +16,7 @@ function App() {
         <Topbanner/>
         <Mainbody>
           <Menu/>
-          <Home/>
+          <Actors/>
         </Mainbody>
         <Footer/>
     </div>
