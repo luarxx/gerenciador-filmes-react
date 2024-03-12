@@ -1,6 +1,6 @@
 import { Topbar } from "./components/topbar";
-import { Mainbody } from "./components/topbar/mainbody";
-import { Topbanner } from "./components/topbar/topbanner";
+import { Mainbody } from "./components/mainbody";
+import { Topbanner } from "./components/topbanner";
 import "./global.css";
 
 
