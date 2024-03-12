@@ -1,8 +1,9 @@
+import "./global.css";
 import { Topbar } from "./components/topbar";
 import { Mainbody } from "./components/mainbody";
 import { Topbanner } from "./components/topbanner";
 import { Footer } from "./components/footer";
-import "./global.css";
+import { Menu } from "./components/menu";
 
 
 function App() {
@@ -10,7 +11,9 @@ function App() {
     <div className="App">
         <Topbar />
         <Topbanner/>
-        <Mainbody/>
+        <Mainbody>
+          <Menu/>
+        </Mainbody>
         <Footer/>
     </div>
   );
